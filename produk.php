@@ -5,7 +5,7 @@ include "_menu.php";
 ?>
 
 
-<h1>isiskan dengan ap ayang ada di imajinasimu</h1>
+<h1>WAH WEH WOH</h1>
 
 
 <?php
