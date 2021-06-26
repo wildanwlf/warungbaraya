@@ -6,7 +6,8 @@ include "_menu.php";
 
 
 <h1>WAH WEH WOH</h1>git ststausgit gigsi guakjdgakjg
-asdasads
+asdasadsclear
+
 
 <?php
 include "_footer.php";
