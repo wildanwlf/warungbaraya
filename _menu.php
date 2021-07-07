@@ -1,209 +1,156 @@
 <body>
-    <!-- Header Section Start From Here -->
-    <header class="header-wrapper">
-        <div class="header-top header-style-3 header-style-4 bg-blue sticky-nav ptb-10px d-lg-block d-none">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-2 d-flex">
-                        <div class="logo align-self-center">
-                            <a href="index.html"><img class="img-responsive" src="assets/images/logo/logowarung.png" width="80px" alt="logo.jpg" /></a>
-                        </div>
+
+    <!--header area start-->
+
+    <!--offcanvas menu area start-->
+    <div class="off_canvars_overlay">
+
+    </div>
+    <div class="offcanvas_menu">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="canvas_open">
+                        <a href="javascript:void(0)"><i class="icon-menu"></i></a>
                     </div>
-                    <div class="col-md-7 align-self-center header-menu-3">
-                        <div class="header-horizontal-menu">
-                            <ul class="menu-content">
-                                <li><a href=".">Home</a></li>
-                                <li><a href="contact.html">Produk</a></li>
-                                <li><a href="contact.html">About</a></li>
-                                <li><a href="contact.html">Kontak</a></li>
+                    <div class="offcanvas_menu_wrapper">
+                        <div class="canvas_close">
+                            <a href="javascript:void(0)"><i class="icon-x"></i></a>
+                        </div>
+                        <div class="header_social text-right">
+                            <ul>
+                                <li><a href="#"><i class="ion-social-twitter"></i></a></li>
+                                <li><a href="#"><i class="ion-social-googleplus-outline"></i></a></li>
+                                <li><a href="#"><i class="ion-social-youtube-outline"></i></a></li>
+                                <li><a href="#"><i class="ion-social-facebook"></i></a></li>
+                                <li><a href="#"><i class="ion-social-instagram-outline"></i></a></li>
                             </ul>
                         </div>
-                    </div>
-                    <div class="col-md-3 text-right align-self-center">
-                        <!--Contact info Start -->
-                        <div class="contact-link">
-                            <div class="phone">
-                                <p>Customer Support:</p>
-                                <a href="tel:(+800)123456789">(+800)123 456 789</a>
-                            </div>
-                        </div>
-                        <!--Contact info End -->
-                    </div>
-                </div>
-            </div>
-        </div>
-        <!-- Header Nav End -->
-        <div class="header-menu header-menu-style-3 d-lg-block d-none ptb-13px">
-            <div class="container">
-                <div class="header-bottom bg-white">
-                    <div class="row">
-                        <div class="col-lg-2">
-                            <div class="header-menu-vertical">
-                                <h4 class="menu-title">Browse Categories </h4>
-                                <ul class="menu-content display-none">
-                                    <li class="menu-item"><a href="#">Televisions</a></li>
-                                    <li class="menu-item"><a href="#">Digital Cameras</a></li>
-                                </ul>
-                                <!-- menu content -->
-                            </div>
-                            <!-- header menu vertical -->
-                        </div>
-                        <div class="col-lg-7">
-                            <div class="header-right-element d-flex">
-                                <div class="search-element media-body">
-                                    <form action="#">
-                                        <input type="text" placeholder="Enter your search key ... " />
-                                        <button>Search</button>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Cart info Start -->
-                        <div class="col-lg-3 text-right">
-                            <div class="header-tools">
-                                <div class="cart-info align-self-center">
-                                    <a href="#offcanvas-wishlist" class="heart offcanvas-toggle"><i class="lnr lnr-heart"></i><span>Wishlist</span></a>
-                                    <a href="#offcanvas-cart" class="bag offcanvas-toggle"><i class="lnr lnr-cart"></i><span>My Cart</span></a>
-                                </div>
-                            </div>
-                        </div>
-                        <!--Cart info End -->
-                    </div>
-                    <!-- row -->
-                </div>
-            </div>
-            <!-- container -->
-        </div>
-        <!-- header menu -->
-    </header>
-    <!-- Header Section End Here -->
 
-    <!-- Mobile Header Section Start -->
-    <div class="mobile-header d-lg-none sticky-nav bg-white ptb-20px">
-        <div class="container">
-            <div class="row align-items-center">
 
-                <!-- Header Logo Start -->
-                <div class="col">
-                    <div class="header-logo">
-                        <a href="index.html"><img class="img-responsive" src="assets/images/logo/logowarung.png" width="40%" alt="logo.jpg" /></a>
-                    </div>
-                </div>
-                <!-- Header Logo End -->
-
-                <!-- Header Tools Start -->
-                <div class="col-auto">
-                    <div class="header-tools justify-content-end">
-                        <div class="cart-info d-flex align-self-center">
-                            <a href="#offcanvas-wishlist" class="heart offcanvas-toggle"><i class="lnr lnr-heart"></i><span>Wishlist</span></a>
-                            <a href="#offcanvas-cart" class="bag offcanvas-toggle"><i class="lnr lnr-cart"></i><span>My Cart</span></a>
+                        <div class="call-support">
+                            <p><a href="tel:(08)23456789">(08) 23 456 789</a> Customer Support</p>
                         </div>
-                        <div class="mobile-menu-toggle">
-                            <a href="#offcanvas-mobile-menu" class="offcanvas-toggle">
-                                <svg viewBox="0 0 800 600">
-                                    <path d="M300,220 C300,220 520,220 540,220 C740,220 640,540 520,420 C440,340 300,200 300,200" id="top"></path>
-                                    <path d="M300,320 L540,320" id="middle"></path>
-                                    <path d="M300,210 C300,210 520,210 540,210 C740,210 640,530 520,410 C440,330 300,190 300,190" id="bottom" transform="translate(480, 320) scale(1, -1) translate(-480, -318) "></path>
-                                </svg>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <!-- Header Tools End -->
-
-            </div>
-        </div>
-    </div>
-
-    <!-- Search Category Start -->
-    <div class="mobile-search-area d-lg-none mb-15px">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-                    <div class="search-element media-body">
-                        <form class="d-flex" action="#">
-                            <input type="text" placeholder="Enter your search key ... " />
-                            <button><i class="lnr lnr-magnifier"></i></button>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Search Category End -->
-    <div class="mobile-category-nav d-lg-none mb-15px">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-12">
-
-                    <!--=======  category menu  =======-->
-                    <div class="hero-side-category">
-                        <!-- Category Toggle Wrap -->
-                        <div class="category-toggle-wrap">
-                            <!-- Category Toggle -->
-                            <button class="category-toggle"><i class="fa fa-bars"></i> All Categories</button>
-                        </div>
-
-                        <!-- Category Menu -->
-                        <nav class="category-menu">
-                            <ul>
-                                <li class="menu-item"><a href="#">Digital Cameras</a></li>
-                                <li class="menu-item"><a href="#">Headphones</a></li>
-                                <li>
-                                    <a href="#" id="more-btn"><i class="ion-ios-plus-empty" aria-hidden="true"></i> More Categories</a>
+                        <div id="menu" class="text-left ">
+                            <ul class="offcanvas_main_menu">
+                                <li class="menu-item-has-children">
+                                    <a href=".">Home</a>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="akun.php">Akun Saya</a>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href="produk.php">Semua Produk</a>
+                                </li>
+                                <li class="menu-item-has-children">
+                                    <a href=".">about Us</a>
                                 </li>
                             </ul>
-                        </nav>
+                        </div>
+                        <div class="offcanvas_footer">
+                            <span><a href="#"><i class="fa fa-envelope-o"></i> info@yourdomain.com</a></span>
+                        </div>
                     </div>
-
-                    <!--=======  End of category menu =======-->
                 </div>
             </div>
         </div>
     </div>
-    <!-- Mobile Header Section End -->
+    <!--offcanvas menu area end-->
 
-    <!-- OffCanvas Search Start -->
-    <div id="offcanvas-mobile-menu" class="offcanvas offcanvas-mobile-menu">
-        <div class="inner customScroll">
-            <div class="head">
-                <span class="title">&nbsp;</span>
-                <button class="offcanvas-close">×</button>
+    <header>
+        <div class="main_header">
+            <div class="header_middle header_middle5">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-lg-3 col-md-3 col-sm-3 col-3">
+                            <div class="logo">
+                                <a href=".">
+                                    <b>BUMDES</b>
+                                    <h3 class="text-success"> Cibingbin</h3>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 col_search5">
+                            <div class="search_box search_five mobail_s_none">
+                                <form action="#">
+                                    <input placeholder="Search here..." type="text">
+                                    <button type="submit"><span class="lnr lnr-magnifier"></span></button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-7 col-8">
+                            <div class="header_account_area">
+                                <div class="header_account_list register">
+                                    <ul>
+                                        <?php if (empty($_SESSION['pelanggan'])) { ?>
+                                            <li><a href="log-reg.php">Register</a></li>
+                                            <li><span>/</span></li>
+                                            <li><a href="log-reg.php">Login</a></li>
+                                        <?php } else { ?>
+                                            <li><a href="akun.php">Hi, <?= $_SESSION['pelanggan']['nama_pelanggan'] ?></a></li>
+                                        <?php } ?>
+                                    </ul>
+                                </div>
+                                <div class="header_account_list">
+                                    <a href="keranjang.php"><span class="lnr lnr-cart"></span><span class="item_count">2</span></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
-            <div class="offcanvas-menu-search-form">
-                <form action="#">
-                    <input type="text" placeholder="Search...">
-                    <button><i class="lnr lnr-magnifier"></i></button>
-                </form>
-            </div>
-            <div class="offcanvas-menu">
-                <ul>
-                    <li><a href=".">Home</a></li>
-                    <li><a href="contact.html">Produk</a></li>
-                    <li><a href="contact.html">About</a></li>
-                    <li><a href="contact.html">Kontak</a></li>
-                </ul>
-            </div>
-            <!-- OffCanvas Menu End -->
-            <div class="offcanvas-social mt-30px">
-                <ul>
-                    <li>
-                        <a href="#"><i class="ion-social-facebook"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="ion-social-twitter"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="ion-social-google"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="ion-social-youtube"></i></a>
-                    </li>
-                    <li>
-                        <a href="#"><i class="ion-social-instagram"></i></a>
-                    </li>
-                </ul>
+            <div class="header_bottom sticky-header">
+                <div class="container">
+                    <div class="row align-items-center">
+                        <div class="col-12 col-md-6 col-sm-6 mobail_s_block">
+                            <div class="search_box search_five">
+                                <form action="#">
+                                    <input placeholder="Search here..." type="text">
+                                    <button type="submit"><span class="lnr lnr-magnifier"></span></button>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-sm-6">
+                            <div class="categories_menu">
+                                <div class="categories_title">
+                                    <h2 class="categori_toggle">Kategori Produk</h2>
+                                </div>
+                                <div class="categories_menu_toggle">
+                                    <ul>
+                                        <?php
+                                        include "database.php";
+                                        $ka = $koneksi->query("SELECT * FROM tbl_kategori");
+                                        while ($k = $ka->fetch_assoc()) { ?>
+                                            <li><a href="produk.php?kategori=<?= $k['kategori'] ?>"> <?= $k['kategori'] ?></a></li>
+                                        <?php } ?>
+                                        <li class="hidden"><a href=".">Coming Soon..</a></li>
+                                        <li><a href="#" id="more-btn"><i class="fa fa-plus" aria-hidden="true"></i> Kategori Lainnya</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <!--main menu start-->
+                            <div class="main_menu menu_position">
+                                <nav>
+                                    <ul>
+                                        <li><a class="active" href="."> Home</a></li>
+                                        <li><a href="produk.php"> Semua Produk</a></li>
+                                        <li><a href="keranjang.php"> Keranjang Belanja</a></li>
+                                        <li><a href="."> About</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                            <!--main menu end-->
+                        </div>
+                        <div class="col-lg-3">
+                            <div class="call-support">
+                                <p><a href="tel:(08)23456789">(08) 23 456 789</a> Customer Support</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <!-- OffCanvas Search End -->
+    </header>
+    <!--header area end-->
